@@ -110,27 +110,42 @@
                 <a href="Cuahang.html">Cửa hàng</a>
                 <a href="Menuspbanchay.html">Thực đơn</a>
                 <div class="dropdown">
-                    <button class="dropbtn">Tin tức & Ưu đãi
+                    <button onclick="openTinTucvaUuDai()" class="dropbtn">Tin tức & Ưu đãi
                         <i class="fa fa-caret-down"></i>
                       </button>
+                      <script>
+                        function openTinTucvaUuDai(){
+                            window.open("tintucvauudai.html","_self");
+                        }
+                      </script>
                   <div class="dropdown-content">
                     <a href="tintuc.html">Tin tức & Sự kiện</a>
                     <a href="uudai.html">Khuyến mãi</a>
                   </div>
                 </div> 
                 <div class="dropdown">
-                    <button class="dropbtn">Liên hệ
+                    <button onclick="openLienhe()" class="dropbtn">Liên hệ
                         <i class="fa fa-caret-down"></i>
                       </button>
+                      <script>
+                        function openLienhe(){
+                            window.open("LienHe.html","_self");
+                        }
+                      </script>
                   <div class="dropdown-content">
                     <a href="Gopy.html">Góp ý</a>
                     <a href="LienHe.html">Hợp tác</a>
                   </div>
                 </div> 
                 <div class="dropdown">
-                    <button class="dropbtn">Về chúng tôi
+                    <button onclick="openVechungtoi()" class="dropbtn">Về chúng tôi
                         <i class="fa fa-caret-down"></i>
                       </button>
+                      <script>
+                        function openVechungtoi(){
+                            window.open("VeChungToi.html","_self");
+                        }
+                      </script>
                   <div class="dropdown-content">
                     <a href="KhoiNguon.html">Khởi nguồn</a>
                     <a href="tuyendung.html">Tuyển dụng</a>
