@@ -5,11 +5,16 @@
     left: 550px;
     
     }
+
+/* .thanhvien{
+    height: 700px;
+    width: 100%;
+} */
 .button {
         color: #fff;
     position: absolute;
-    top: 400px;
-    left: 700px;
+    margin-top: 400px;
+    margin-left: -800px;
     font-size: large;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -118,11 +123,13 @@ height: 350px;
     }
    
     .button {
-        top: 200px;
-        left: 120px;
+        margin-top: 100px;
+        margin-left: -250px;
         font-size: small;
         padding-top: 5px;
         padding-bottom: 5px;
+        /* position: absolute; */
+        /* display: none; */
         
         }
     .image {
@@ -139,6 +146,7 @@ height: 350px;
     .text {
         font-size: 18px;
     }
+   
 }
 
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
@@ -171,8 +179,9 @@ height: 350px;
         left: 200px;
     }
     .button {
-        top: 250px;
-        left: 300px;
+        margin-top: 200px;
+        margin-left: -450px;
+        /* display: none; */
         
         }
     .image {
@@ -195,6 +204,8 @@ height: 350px;
     .text {
                 font-size: 18px;
             }
+
+           
     
 }
 .body{
